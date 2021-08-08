@@ -1,0 +1,24 @@
+@use '../globals/' as *;
+
+.btn {
+	display: inline-flex;
+	border-radius: 0.8rem;
+	padding: 1rem 1rem;
+	outline: none;
+	border: none;
+	transition: 0.23s ease-in-out;
+	width: 100%;
+	justify-content: center;
+
+	&--primary {
+		background: $bright-blue;
+		color: $very-pale-blue;
+		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+	}
+
+	&--link {
+		background: none;
+		color: $desaturated-blue;
+		font-weight: 700;
+	}
+}

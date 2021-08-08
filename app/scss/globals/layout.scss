@@ -1,0 +1,28 @@
+@use '../util/' as *;
+@use 'fonts';
+@use 'colors';
+
+body {
+	font-family: fonts.$font-family;
+	background: colors.$pale-blue;
+}
+
+.container {
+	padding: 0 rem(25);
+	/* 	max-width: rem(1100); */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.attribution {
+	font-size: rem(11);
+	text-align: center;
+	color: colors.$desaturated-blue;
+
+	a {
+		color: colors.$bright-blue;
+	}
+}

@@ -1,0 +1,41 @@
+@use '../util/' as *;
+@use '../globals/' as *;
+
+.card {
+	margin: 2rem 0 2rem 0;
+	max-width: rem(340);
+	background: $very-pale-blue;
+	border-radius: 1rem;
+	text-align: center;
+
+	&__description {
+		color: $desaturated-blue;
+		line-height: rem(22);
+		font-size: rem(14);
+	}
+
+	&__plan {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__image {
+		img {
+			border-top-left-radius: 1rem;
+			border-top-right-radius: 1rem;
+		}
+	}
+
+	&__content {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	&__footer {
+		padding: 2rem;
+	}
+
+	&__icon {
+		width: 3rem;
+	}
+}

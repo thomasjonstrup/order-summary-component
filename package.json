@@ -1,0 +1,26 @@
+{
+	"name": "gulp-browsersync-sass",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "gulp --development",
+		"prod": "gulp --production"
+	},
+	"keywords": [],
+	"author": "Thomas Jonstrup (https://thomasjonstrup.dk/)",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^10.3.1",
+		"browser-sync": "^2.27.5",
+		"cssnano": "^5.0.7",
+		"gulp": "^4.0.2",
+		"gulp-mode": "^1.1.0",
+		"gulp-postcss": "^9.0.0",
+		"gulp-sass": "^5.0.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-terser": "^2.0.1",
+		"postcss": "^8.3.6",
+		"sass": "^1.37.5"
+	}
+}
