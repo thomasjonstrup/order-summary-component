@@ -1,10 +1,17 @@
 @use '../util/' as *;
 @use 'fonts';
 @use 'colors';
-
+@use '../util/' as *;
 body {
 	font-family: fonts.$font-family;
-	background: colors.$pale-blue;
+	background: colors.$pale-blue
+		url("../../../images/pattern-background-mobile.svg") no-repeat;
+	background-size: contain;
+
+	@include breakpoint(medium) {
+		background: colors.$pale-blue
+			url("../../../images/pattern-background-desktop.svg") no-repeat;
+	}
 }
 
 .container {
