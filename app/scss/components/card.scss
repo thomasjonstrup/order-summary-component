@@ -3,8 +3,8 @@
 
 .card {
 	margin: 2rem 0 2rem 0;
-	max-width: rem(340);
-	background: $very-pale-blue;
+	max-width: rem(400);
+	background: #fff;
 	border-radius: 1rem;
 	text-align: center;
 
@@ -18,6 +18,9 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		background: $very-pale-blue;
+		padding: 10px 20px;
+		border-radius: 20px;
 	}
 
 	&__image {

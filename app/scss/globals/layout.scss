@@ -11,6 +11,7 @@ body {
 	@include breakpoint(medium) {
 		background: colors.$pale-blue
 			url("../../../images/pattern-background-desktop.svg") no-repeat;
+		background-size: contain;
 	}
 }
 
